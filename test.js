@@ -15,4 +15,8 @@ if($('.main2').css("left")=="-129px"){
 }, function(){
  	$('.main2').animate({left:'-129px'},1000) ;
  });
+ 
+ $(".main").accordion({collapsible:true,heightStyle:"content"});
+	$(".main2").accordion({collapsible:true,heightStyle:"content"});
+	
  });
