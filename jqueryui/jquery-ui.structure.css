@@ -98,8 +98,8 @@
 	display: block;
 	cursor: pointer;
 	position: relative;
-	margin: 2px 0 0 0;
-	padding: .5em .5em .5em .7em;
+	margin: 4px 0 0 0;
+	padding: 1em;
 	font-size: 100%;
 }
 .ui-accordion .ui-accordion-content {

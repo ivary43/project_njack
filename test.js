@@ -15,4 +15,8 @@ if($('.main2').css("left")=="-129px"){
 }, function(){
  	$('.main2').animate({left:'-129px'},1000) ;
  });
+ 
+ $(".panel").accordion({collapsible:true,heightStyle:"content",active:10},{icons: {
+                                  header: "ui-icon-plus",
+                                  activeHeader: "ui-icon-minus"}});	
  });

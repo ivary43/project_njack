@@ -1,3 +1,8 @@
+body{
+	font-size:20px;
+	margin:0px;
+}
+
 .exp{
 	
 	padding-right: 30px ;
@@ -7,15 +12,26 @@
 }
 .starting{
 	float: right ;
-	 background-color:red;
+	background-color:red;
 	
 	padding-left: 48px ;
 	padding-bottom:649px;
 
 }
- 
+.mainbody{
+	position:relative;
+	margin-left:300px;
+	margin-right:300px;
+}
+h1{
+	border-bottom:2px solid black;
+	text-align:center;
+}
+ h2{
+	 font-size:115%;
+ }
 body{
-	background-color:#021C1E;
+	background-color:#B8B5B7;
 	overflow:scroll;
 }
 li{
@@ -23,6 +39,7 @@ li{
 	text-align:right ;
 }
 .main{
+	margin-top:-27px;
 	 height:647px ;
 	 width:185px;
 	 right:-129px;
@@ -32,7 +49,8 @@ li{
 	 border-top-left-radius:7% ; 
 	  }
  .main2{
- 	
+	margin-top:-27px;
+ 	text-align:left;
 	 height:647px ;
 	 width:185px;
 	 left:-129px;
